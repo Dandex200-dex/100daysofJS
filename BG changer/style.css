@@ -1,0 +1,32 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+/* flex-direction: column; */
+justify-content: center;
+align-items: center;
+width: 100vw;
+height: 100vh;
+}
+
+#bgchanger {
+padding: 15px 30px;
+border: 2px solid black;
+cursor: pointer;
+color: black;
+background-color: transparent;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: bold;
+}
+
+#bgchanger:hover {
+    background-color: black;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}

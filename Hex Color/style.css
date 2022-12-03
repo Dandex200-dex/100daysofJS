@@ -1,0 +1,45 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 100vw;
+height: 100vh;
+font-family: poppins;
+}
+
+.hex {
+    display: flex;
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+#colorValue{
+    margin-left: 5px;
+}
+
+#bgchanger {
+padding: 15px 30px;
+border: 2px solid black;
+cursor: pointer;
+color: black;
+background-color: transparent;
+font-weight: bold;
+font-family: poppins;
+}
+
+#bgchanger:hover {
+    background-color: black;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
